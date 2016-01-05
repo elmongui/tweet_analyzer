@@ -1,13 +1,16 @@
 package org.gistic.taghreed.tweet_analyzer;
 
+
 /**
  * Hello world!
  *
  */
-public class App 
-{
-    public static void main( String[] args )
+public class App {
+
+    public static void main(String[] args) throws Exception 
     {
-        System.out.println( "Hello World!" );
+        AnalyzerHajjImages analyzer = new AnalyzerHajjImages();
+        analyzer.run();
     }
+
 }
